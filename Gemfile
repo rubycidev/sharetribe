@@ -112,6 +112,8 @@ gem 'recaptcha', '~> 5.10.0'
 
 gem 'simpleidn', '~> 0.2.1'
 
+gem "ruby_ci", github: "RubyCI/ruby_ci_gem", branch: "bugfix/188183739-increase-ruby-support"
+
 group :staging, :production do
   gem 'newrelic_rpm', '~> 8.15.0'
   gem 'rails_12factor', '~> 0.0.3'
